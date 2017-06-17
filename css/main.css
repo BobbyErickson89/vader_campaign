@@ -1,7 +1,41 @@
-#vader-pic {
-    float: right;
-}
-
 body {
     background: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
+
+#vader-pic {
+    float: right;
+    height: 533px;
+    width: 800px;
+    display: inline-block;
+    position: absolute;
+}
+
+#form-container {
+    display: inline-block;
+    width: 400px;
+    margin-left: 150px;
+    margin-top: 75px;
+}
+
+#campaign-logo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+    width: 100%;
+}
+
+#sign-up-form {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sign-up-form button {
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 200;
 }
