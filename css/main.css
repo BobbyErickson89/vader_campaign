@@ -10,60 +10,22 @@ body {
     height: 533px;
     width: 800px;
     display: inline-block;
+    position: absolute;
 }
 
 #form-container {
     display: inline-block;
-    width: 350px;
+    width: 400px;
+    margin-left: 150px;
+    margin-top: 75px;
 }
 
-#form-heading {
-    text-align: center;
-}
-
-#form-container h1 {
-    font-family: 'Russo One', sans-serif;
-    text-transform: uppercase;
-    font-size: 7em;
-}
-
-
-/* Cursive id's are for creating the lines around 'for' in the Darth for Galactic Overlord text */
-#cursive {
-    font-family: 'Lobster', cursive;
-    display: inline-block;
-    padding: 0 15px;
-    position: relative;
-}
-
-#cursive:before,
-#cursive:after {
-    background: #fff;
-    content: "";
+#campaign-logo {
+    margin-left: auto;
+    margin-right: auto;
     display: block;
-    height: 1px;
-    position: absolute;
-    top: 50%;
-    width: 400%;
-}
 
-#cursive:before {
-    right: 100%;
-}
-
-#cursive:after {
-    left: 100%;
-}
-
-#cursive-container {
-    overflow: hidden;
-    text-align: center;
-}
-
-#galactic-overlord-title {
-    text-transform: uppercase;
-    font-weight: 300;
-    font-size: 2em;
+    width: 100%;
 }
 
 #sign-up-form {
