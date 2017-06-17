@@ -6,14 +6,18 @@
 
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!--<link rel="stylesheet" type="text/css" href="node_modules/normalize.css/normalize.css">-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lobster|Russo+One" rel="stylesheet">
+    <script src="https://use.fontawesome.com/5d1f6b1080.js"></script>
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
 
-<section>
+<section id="sign-up-section">
     <div id="form-container">
         <img src="images/campaign-logo.svg" alt="Logo for Darth's campaign" id="campaign-logo">
 
@@ -26,11 +30,62 @@
                 <input type="zip-code" class="form-control" placeholder="Zip code">
             </div>
 
-            <button type="submit" class="btn btn-primary">Sign Up</button>
+            <button type="submit" class="btn btn-primary round">Sign Up</button>
         </form>
     </div>
 
     <img src="images/vader.jpg" alt="Picture of Darth Vader" id="vader-pic">
+</section>
+
+<section id="learn-more-section">
+    <button class="btn btn-primary round" id="learn-more-btn" data-toggle="collapse" data-target="#learn-more-text">
+        Learn more about Darth
+    </button>
+
+    <div id="learn-more-text" class="collapse">
+        There. You see Lord Vader, she can be reasonable. Continue with the operation. You may fire when ready.
+        What? You're far too trusting. Dantooine is too remote to make an effective demonstration. But don't worry.
+        We will deal with your Rebel friends soon enough. No! Commence primary ignition.
+        <br>
+
+        No, my father didn't fight in the wars. He was a navigator on a spice freighter. That's what your uncle told you.
+        He didn't hold with your father's ideals. Thought he should have stayed here and not gotten involved.
+        You fought in the Clone Wars? Yes, I was once a Jedi Knight the same as your father. I wish I'd known him.
+        He was the best star-pilot in the galaxy, and a cunning warrior. I understand you've become quite a good pilot yourself.
+        And he was a good friend. Which reminds me... I have something here for you. Your father wanted you to
+        have this when you were old enough, but your uncle wouldn't allow it. He feared you might
+        follow old Obi-Wan on some damned-fool idealistic crusade like your father did.
+        <br>
+
+        What? Yahoo! Look out! You're all clear, kid. Now let's blow this thing and go home!
+        Stand by to fire at Rebel base. Standing by. Great shot, kid. That was one in a million.
+        Remember, the Force will be with you...always.
+        <br>
+
+        Someone was in the pod. The tracks go off in this direction. Look, sir -- droids.
+        <br>
+
+        It looks like an Imperial cruiser. Our passengers must be hotter than I thought.
+        Try and hold them off. Angle the deflector shield while I make the calculations for the jump to light speed.
+        Stay sharp! There are two more coming in, they're going to try to cut us off. Why don't you outrun them?
+        I thought you said this thing was fast. Watch your mouth, kid, or you're going to find yourself floating home.
+        We'll be safe enough once we make the jump to hyperspace. Besides, I know a few maneuvers.
+        We'll lose them! Here's where the fun begins!
+    </div>
+
+    <nav id="navigation-links">
+        <div id="social-media-links">
+            <a href="#" class="fa fa-facebook fa-2x"></a>
+            <a href="#" class="fa fa-twitter fa-2x"></a>
+        </div>
+        <div id="privacy-policy">
+            Privacy Policy
+        </div>
+    </nav>
+
+    <div id="paid-for-message">
+        Paid for by Darth for Galactic Overlord
+    </div>
 </section>
 
 </body>

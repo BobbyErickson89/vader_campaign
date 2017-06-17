@@ -2,7 +2,22 @@ body {
     background: black;
     color: white;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 200;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+
+.btn.round {
+    border-radius: 26px;
+    text-transform: uppercase;
+    height: 4em;
+    letter-spacing: 2px;
+}
+
+/******** SECTION 1 ********/
+
+#sign-up-section {
+    /* section's height needs to be the same as our vader image */
+    height: 533px;
 }
 
 #vader-pic {
@@ -36,6 +51,59 @@ body {
 
 #sign-up-form button {
     width: 100%;
+}
+
+/******** SECTION 2 ********/
+
+#learn-more-section {
+    padding-top: 2em;
+    background-color: #19191C;
+}
+
+#learn-more-text {
+    width: 66%;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 1px solid white;
+}
+
+#learn-more-btn {
+    background-color: #19191C;
+    color: white;
+    border: 1px solid red;
+    width: 350px;
+
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4em;
+}
+
+#navigation-links {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#social-media-links a {
+    color: white;
+    margin: 0.5em;
+}
+
+#social-media-links a:hover {
+    text-decoration: none;
+}
+
+#paid-for-message {
     text-transform: uppercase;
-    font-weight: 200;
+    padding: 1em;
+    border: 1px solid #434345;
+    color: #434345;
+    width: 300px;
+    font-size: 0.75em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
