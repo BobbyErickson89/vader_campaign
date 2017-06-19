@@ -10,11 +10,18 @@ body {
     outline: none;
 }
 
+/* rounding off the edges of btn class that are default */
 .btn.round {
     border-radius: 26px;
     text-transform: uppercase;
     height: 4em;
     letter-spacing: 2px;
+}
+
+/* getting rid of any default text decorations and hovers for links*/
+a, a:hover, a:active, a:visited, a:focus {
+    text-decoration:none;
+    color: white;
 }
 
 .modal-content {
@@ -56,7 +63,7 @@ body {
     width: 100%;
 }
 
-#sign-up-form {
+#sign-up-form, #thank-you {
     width: 75%;
     margin-left: auto;
     margin-right: auto;
@@ -64,6 +71,14 @@ body {
 
 #sign-up-form button {
     width: 100%;
+}
+
+#thank-you {
+    width: 85%;
+    display: none;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 /******** SECTION 2 ********/
@@ -80,11 +95,16 @@ body {
     margin-right: auto;
 
     text-align: justify;
+    letter-spacing: 1px;
 }
 
-#learn-more-heading {
+.learn-more-heading {
     text-transform: uppercase;
     text-align: center;
+}
+
+#learn-more-subhead {
+    letter-spacing: 3px;
 }
 
 #learn-more-btn {
@@ -106,16 +126,35 @@ body {
     margin-bottom: 1em;
 }
 
-#navigation-links a {
-    color: white;
-}
-
-#navigation-links a:hover {
-    text-decoration: none;
-}
-
 #social-media-links a {
     margin: 0.5em;
+}
+
+.fa-facebook:hover {
+    -moz-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+    /* this is the Facebook hex color */
+    color: #3b5998;
+}
+
+.fa-twitter:hover {
+    -moz-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+    /* this is the Twitter hex color */
+    color: #55acee;
+}
+
+#learn-more-btn:hover {
+    -moz-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+    color: black;
+    background-color: red;
 }
 
 #paid-for-message {

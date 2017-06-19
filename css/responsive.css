@@ -27,7 +27,7 @@
     }
 
     #form-container {
-        width: 90%;
+        width: 85%;
         padding-top: 60px;
 
 
@@ -38,5 +38,9 @@
 
     #learn-more-btn, #learn-more-text {
         width: 75%;
+    }
+
+    #learn-more-btn {
+        font-size: 0.75em;
     }
 }
