@@ -28,7 +28,7 @@ a, a:hover, a:active, a:visited, a:focus {
     background-color: #19191C;
 }
 
-/******** SECTION 1 ********/
+/******** Sign Up Section ********/
 
 #sign-up-section {
     /* section's height needs to be the same as our vader image */
@@ -81,7 +81,7 @@ a, a:hover, a:active, a:visited, a:focus {
     letter-spacing: 1px;
 }
 
-/******** SECTION 2 ********/
+/******** About Darth Section ********/
 
 #learn-more-section {
     padding-top: 2em;
@@ -131,28 +131,28 @@ a, a:hover, a:active, a:visited, a:focus {
 }
 
 .fa-facebook:hover {
-    -moz-transition: all .3s ease-in;
-    -o-transition: all .3s ease-in;
-    -webkit-transition: all .3s ease-in;
-    transition: all .3s ease-in;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
     /* this is the Facebook hex color */
     color: #3b5998;
 }
 
 .fa-twitter:hover {
-    -moz-transition: all .3s ease-in;
-    -o-transition: all .3s ease-in;
-    -webkit-transition: all .3s ease-in;
-    transition: all .3s ease-in;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
     /* this is the Twitter hex color */
     color: #55acee;
 }
 
 #learn-more-btn:hover {
-    -moz-transition: all .3s ease-in;
-    -o-transition: all .3s ease-in;
-    -webkit-transition: all .3s ease-in;
-    transition: all .3s ease-in;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
     color: black;
     background-color: red;
 }
