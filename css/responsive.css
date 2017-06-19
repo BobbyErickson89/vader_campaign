@@ -1,0 +1,42 @@
+/***** Tablets *****/
+@media screen and (max-width:1050px) {
+    #vader-pic {
+        display: none;
+    }
+
+    #sign-up-section {
+        height: 650px;
+    }
+
+    #form-container {
+        margin-top: 0;
+        padding-top: 100px;
+        width: 600px;
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/***** Phones *****/
+@media screen and (max-width:736px) {
+    #sign-up-section {
+        height: 70%;
+        padding-bottom: 40px;
+    }
+
+    #form-container {
+        width: 90%;
+        padding-top: 60px;
+
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #learn-more-btn, #learn-more-text {
+        width: 75%;
+    }
+}

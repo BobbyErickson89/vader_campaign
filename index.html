@@ -1,36 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1">
     <title>Darth for Galactic Overlord</title>
 
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!--<link rel="stylesheet" type="text/css" href="node_modules/normalize.css/normalize.css">-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lobster|Russo+One" rel="stylesheet">
+    <script src="https://use.fontawesome.com/5d1f6b1080.js"></script>
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
 </head>
 <body>
 
-<section>
+<section id="sign-up-section">
     <div id="form-container">
         <img src="images/campaign-logo.svg" alt="Logo for Darth's campaign" id="campaign-logo">
 
         <form id="sign-up-form">
             <div class="form-group">
-                <input type="email" class="form-control" placeholder="Email address">
+                <input type="email" class="form-control input-lg" placeholder="Email address">
             </div>
 
             <div class="form-group">
-                <input type="zip-code" class="form-control" placeholder="Zip code">
+                <input type="zip-code" class="form-control input-lg" placeholder="Zip code">
             </div>
 
-            <button type="submit" class="btn btn-primary">Sign Up</button>
+            <button type="submit" class="btn btn-primary round">Sign Up</button>
         </form>
     </div>
 
     <img src="images/vader.jpg" alt="Picture of Darth Vader" id="vader-pic">
+</section>
+
+<section id="learn-more-section">
+    <button class="btn btn-primary round" id="learn-more-btn" data-toggle="collapse" data-target="#learn-more-text">
+        Learn more about Darth
+        <i class="fa fa-angle-down fa-lg"></i>
+    </button>
+
+    <div id="learn-more-text" class="collapse">
+        <h1 id="learn-more-heading">About Darth</h1>
+        <p>
+            Darth Vader has proven himself to be a leader in the Galactic Empire since it's conception after the
+            successful take down of the Jedi Council.  Using his strength, wit, and sheer power of the Force, he has
+            overseen successful campaigns such as the construction of the Death Star and the execution of Order 66.
+        </p>
+
+        <p>
+            Along with being a cunning overlord for the Empire, Darth is a caring family man.  He constantly boasts of his
+            twin children, Luke and Leia.  He hopes to have Luke by his side during his campaign, so that they can rule the
+            galaxy together as father and son.
+        </p>
+
+        <p>
+            Emperor Palpatine has shown a strong interest in Darth since he was a young Padowan, and has since become
+            a valuable apprentice to the emperor.  However, it is time for a new galactic overlord.  Join Darth
+            on the dark side of the Force and together, we can overthrow the emperor, destroy some Rebel scum, and claim
+            Darth as our new Galactic Overlord!
+        </p>
+
+
+    </div>
+
+    <nav id="navigation-links">
+        <div id="social-media-links">
+            <a href="#" class="fa fa-facebook fa-2x"></a>
+            <a href="#" class="fa fa-twitter fa-2x"></a>
+        </div>
+        <div id="privacy-policy">
+            <a href="#">Privacy Policy</a>
+        </div>
+    </nav>
+
+    <div id="paid-for-message">
+        Paid for by Darth for Galactic Overlord
+    </div>
 </section>
 
 </body>
