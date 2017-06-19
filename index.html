@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1">
     <title>Darth for Galactic Overlord</title>
 
 
@@ -14,6 +14,7 @@
             crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
 </head>
 <body>
 
@@ -23,11 +24,11 @@
 
         <form id="sign-up-form">
             <div class="form-group">
-                <input type="email" class="form-control" placeholder="Email address">
+                <input type="email" class="form-control input-lg" placeholder="Email address">
             </div>
 
             <div class="form-group">
-                <input type="zip-code" class="form-control" placeholder="Zip code">
+                <input type="zip-code" class="form-control input-lg" placeholder="Zip code">
             </div>
 
             <button type="submit" class="btn btn-primary round">Sign Up</button>
@@ -40,37 +41,31 @@
 <section id="learn-more-section">
     <button class="btn btn-primary round" id="learn-more-btn" data-toggle="collapse" data-target="#learn-more-text">
         Learn more about Darth
+        <i class="fa fa-angle-down fa-lg"></i>
     </button>
 
     <div id="learn-more-text" class="collapse">
-        There. You see Lord Vader, she can be reasonable. Continue with the operation. You may fire when ready.
-        What? You're far too trusting. Dantooine is too remote to make an effective demonstration. But don't worry.
-        We will deal with your Rebel friends soon enough. No! Commence primary ignition.
-        <br>
+        <h1 id="learn-more-heading">About Darth</h1>
+        <p>
+            Darth Vader has proven himself to be a leader in the Galactic Empire since it's conception after the
+            successful take down of the Jedi Council.  Using his strength, wit, and sheer power of the Force, he has
+            overseen successful campaigns such as the construction of the Death Star and the execution of Order 66.
+        </p>
 
-        No, my father didn't fight in the wars. He was a navigator on a spice freighter. That's what your uncle told you.
-        He didn't hold with your father's ideals. Thought he should have stayed here and not gotten involved.
-        You fought in the Clone Wars? Yes, I was once a Jedi Knight the same as your father. I wish I'd known him.
-        He was the best star-pilot in the galaxy, and a cunning warrior. I understand you've become quite a good pilot yourself.
-        And he was a good friend. Which reminds me... I have something here for you. Your father wanted you to
-        have this when you were old enough, but your uncle wouldn't allow it. He feared you might
-        follow old Obi-Wan on some damned-fool idealistic crusade like your father did.
-        <br>
+        <p>
+            Along with being a cunning overlord for the Empire, Darth is a caring family man.  He constantly boasts of his
+            twin children, Luke and Leia.  He hopes to have Luke by his side during his campaign, so that they can rule the
+            galaxy together as father and son.
+        </p>
 
-        What? Yahoo! Look out! You're all clear, kid. Now let's blow this thing and go home!
-        Stand by to fire at Rebel base. Standing by. Great shot, kid. That was one in a million.
-        Remember, the Force will be with you...always.
-        <br>
+        <p>
+            Emperor Palpatine has shown a strong interest in Darth since he was a young Padowan, and has since become
+            a valuable apprentice to the emperor.  However, it is time for a new galactic overlord.  Join Darth
+            on the dark side of the Force and together, we can overthrow the emperor, destroy some Rebel scum, and claim
+            Darth as our new Galactic Overlord!
+        </p>
 
-        Someone was in the pod. The tracks go off in this direction. Look, sir -- droids.
-        <br>
 
-        It looks like an Imperial cruiser. Our passengers must be hotter than I thought.
-        Try and hold them off. Angle the deflector shield while I make the calculations for the jump to light speed.
-        Stay sharp! There are two more coming in, they're going to try to cut us off. Why don't you outrun them?
-        I thought you said this thing was fast. Watch your mouth, kid, or you're going to find yourself floating home.
-        We'll be safe enough once we make the jump to hyperspace. Besides, I know a few maneuvers.
-        We'll lose them! Here's where the fun begins!
     </div>
 
     <nav id="navigation-links">
@@ -79,7 +74,7 @@
             <a href="#" class="fa fa-twitter fa-2x"></a>
         </div>
         <div id="privacy-policy">
-            Privacy Policy
+            <a href="#">Privacy Policy</a>
         </div>
     </nav>
 
