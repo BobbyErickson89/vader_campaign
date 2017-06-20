@@ -2,10 +2,15 @@ body {
     background: #19191C;
     color: white;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     overflow-x: hidden;
 }
 
+.btn:focus {
+    outline: none;
+}
+
+/* rounding off the edges of btn class that are default */
 .btn.round {
     border-radius: 26px;
     text-transform: uppercase;
@@ -13,7 +18,17 @@ body {
     letter-spacing: 2px;
 }
 
-/******** SECTION 1 ********/
+/* getting rid of any default text decorations and hovers for links*/
+a, a:hover, a:active, a:visited, a:focus {
+    text-decoration:none;
+    color: white;
+}
+
+.modal-content {
+    background-color: #19191C;
+}
+
+/******** Sign Up Section ********/
 
 #sign-up-section {
     /* section's height needs to be the same as our vader image */
@@ -48,7 +63,7 @@ body {
     width: 100%;
 }
 
-#sign-up-form {
+#sign-up-form, #thank-you {
     width: 75%;
     margin-left: auto;
     margin-right: auto;
@@ -58,7 +73,15 @@ body {
     width: 100%;
 }
 
-/******** SECTION 2 ********/
+#thank-you {
+    width: 85%;
+    display: none;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/******** About Darth Section ********/
 
 #learn-more-section {
     padding-top: 2em;
@@ -72,11 +95,16 @@ body {
     margin-right: auto;
 
     text-align: justify;
+    letter-spacing: 1px;
 }
 
-#learn-more-heading {
+.learn-more-heading {
     text-transform: uppercase;
     text-align: center;
+}
+
+#learn-more-subhead {
+    letter-spacing: 3px;
 }
 
 #learn-more-btn {
@@ -98,16 +126,35 @@ body {
     margin-bottom: 1em;
 }
 
-#navigation-links a {
-    color: white;
-}
-
-#navigation-links a:hover {
-    text-decoration: none;
-}
-
 #social-media-links a {
     margin: 0.5em;
+}
+
+/* class for our fading transitions */
+.hover-fade:hover {
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+.fa-facebook:hover {
+    /* this is the Facebook hex color */
+    color: #3b5998;
+}
+
+.fa-twitter:hover {
+    /* this is the Twitter hex color */
+    color: #55acee;
+}
+
+#learn-more-btn:hover {
+    color: black;
+    background-color: red;
+}
+
+#privacy-policy:hover {
+    color: gray;
 }
 
 #paid-for-message {
@@ -120,4 +167,5 @@ body {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    font-weight: 400;
 }
