@@ -25,8 +25,8 @@ After successfully cloning the project in terminal, we will want to enter that f
 
 I've included links to all the libraries in the head of the main HTML file,
 so there is no need for a package.json file or any kind of 'npm install' command.
-All we have to do is paste the path to our index.html file.  It should look
-something like this:
+All we have to do is paste the path of the index.html file to your web
+browser of choice.  It should look something like this:
 
 `/LOCAL_PATH/vader_campaign/index.html`
 
