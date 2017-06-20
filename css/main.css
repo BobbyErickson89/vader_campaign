@@ -110,7 +110,7 @@ a, a:hover, a:active, a:visited, a:focus {
 #learn-more-btn {
     background-color: #19191C;
     color: white;
-    border: 1px solid red;
+    border: 1px solid darkred;
     width: 350px;
 
 
@@ -132,10 +132,10 @@ a, a:hover, a:active, a:visited, a:focus {
 
 /* class for our fading transitions */
 .hover-fade:hover {
-    -moz-transition: all .2s ease-in;
-    -o-transition: all .2s ease-in;
-    -webkit-transition: all .2s ease-in;
-    transition: all .2s ease-in;
+    -moz-transition: all .5s ease-in;
+    -o-transition: all .5s ease-in;
+    -webkit-transition: all .5s ease-in;
+    transition: all .5s ease-in;
 }
 
 .fa-facebook:hover {
@@ -150,7 +150,8 @@ a, a:hover, a:active, a:visited, a:focus {
 
 #learn-more-btn:hover {
     color: black;
-    background-color: red;
+    background-color: darkred;
+    border: 1px solid darkred;
 }
 
 #privacy-policy:hover {
