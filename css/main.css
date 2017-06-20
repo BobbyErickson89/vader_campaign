@@ -130,31 +130,31 @@ a, a:hover, a:active, a:visited, a:focus {
     margin: 0.5em;
 }
 
-.fa-facebook:hover {
+/* class for our fading transitions */
+.hover-fade:hover {
     -moz-transition: all .2s ease-in;
     -o-transition: all .2s ease-in;
     -webkit-transition: all .2s ease-in;
     transition: all .2s ease-in;
+}
+
+.fa-facebook:hover {
     /* this is the Facebook hex color */
     color: #3b5998;
 }
 
 .fa-twitter:hover {
-    -moz-transition: all .2s ease-in;
-    -o-transition: all .2s ease-in;
-    -webkit-transition: all .2s ease-in;
-    transition: all .2s ease-in;
     /* this is the Twitter hex color */
     color: #55acee;
 }
 
 #learn-more-btn:hover {
-    -moz-transition: all .2s ease-in;
-    -o-transition: all .2s ease-in;
-    -webkit-transition: all .2s ease-in;
-    transition: all .2s ease-in;
     color: black;
     background-color: red;
+}
+
+#privacy-policy:hover {
+    color: gray;
 }
 
 #paid-for-message {
