@@ -1,4 +1,5 @@
 //function making sure that we can only type numbers in the zipcode input
+//we have to do this because input type="number" doesn't allow for maxlength or minlength.
 $("#zipcode-input").keydown(function (e) {
     // Allow: backspace, delete, tab, escape, and enter
     if ($.inArray(e.keyCode, [46, 8, 9, 27, 13, 110]) !== -1 ||

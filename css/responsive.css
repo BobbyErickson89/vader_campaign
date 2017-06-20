@@ -1,4 +1,4 @@
-/***** Tablets *****/
+/***** Tablet *****/
 @media screen and (max-width:1050px) {
     #vader-pic {
         display: none;
@@ -19,7 +19,7 @@
     }
 }
 
-/***** Phones *****/
+/***** Mobile *****/
 @media screen and (max-width:736px) {
     #sign-up-section {
         height: 70%;
