@@ -1,4 +1,4 @@
-# Darth for Galactic Overloard
+# Darth for Galactic Overlord
 
 This project was done as a coding challenge for Wide Eye Creative.
 The goal was to develop a functioning splash page based on a design
@@ -32,4 +32,3 @@ browser of choice.  It should look something like this:
 
 Hopefully this was useful in getting the code up and running on your machine.
 If there are any issues, please contact me at ericksonr07@gmail.com
-
